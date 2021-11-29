@@ -10,5 +10,9 @@ namespace _110_1Quiz2 {
         protected void Page_Load(object sender, EventArgs e) {
 
         }
+        protected void btn_submit_Click(object sender, EventArgs e)
+        {
+            lb_Msg.Text = tb_CTEL.Text;
+        }
     }
 }
